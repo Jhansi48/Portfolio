@@ -71,7 +71,7 @@
     button{font:inherit}
     img{max-width:100%;display:block}
     .container{width:min(var(--max),calc(100% - 40px));margin:auto}
-    section{padding:115px 0;position:relative}
+    section{padding:75px 0;position:relative}
 
     .mono{
       font-family:"DM Mono",monospace;
@@ -519,14 +519,14 @@
     }
     .project-card{
       position:relative;
-      min-height:385px;
-      padding:30px;
+      padding:22px;
       border:1px solid var(--line);
       border-radius:24px;
       background:var(--surface);
       overflow:hidden;
       display:flex;
       flex-direction:column;
+      height:100%;
       transition:.4s var(--ease);
     }
     .project-card.featured{
@@ -536,18 +536,18 @@
       border-color:rgba(139,124,255,.24);
     }
     .project-card:hover{
-      transform:translateY(-7px);
+      transform:translateY(-5px);
       border-color:rgba(139,124,255,.35);
-      box-shadow:0 35px 70px -45px rgba(139,124,255,.5);
+      box-shadow:0 25px 50px -30px rgba(139,124,255,.35);
     }
     .project-card.featured:hover{
       border-color:rgba(139,124,255,.5);
-      box-shadow:0 35px 70px -45px rgba(139,124,255,.7);
+      box-shadow:0 25px 50px -30px rgba(139,124,255,.5);
     }
     .project-badge-featured{
       position:absolute;
-      top:26px;
-      right:26px;
+      top:20px;
+      right:20px;
       padding:4px 10px;
       border-radius:99px;
       font-size:.62rem;
@@ -557,56 +557,56 @@
       border:1px solid rgba(98,230,215,.2);
     }
     .project-icon{
-      width:52px;height:52px;
-      border-radius:16px;
+      width:44px;height:44px;
+      border-radius:14px;
       display:grid;place-items:center;
-      margin:10px 0 20px;
+      margin:0 0 14px;
       color:var(--cyan);
       background:rgba(98,230,215,.055);
       border:1px solid rgba(98,230,215,.16);
-      font-size:1.15rem;
+      font-size:1.05rem;
     }
     .project-card h3{
-      font-size:1.35rem;
-      line-height:1.2;
-      letter-spacing:-.035em;
+      font-size:1.22rem;
+      line-height:1.25;
+      letter-spacing:-.03em;
       max-width:460px;
     }
     .project-desc{
       color:var(--muted);
-      font-size:.87rem;
-      margin-top:10px;
-      line-height:1.5;
+      font-size:.84rem;
+      margin-top:6px;
+      line-height:1.45;
     }
     .project-capabilities{
-      margin-top:16px;
-      margin-bottom:16px;
+      margin-top:12px;
+      margin-bottom:12px;
       padding-left:18px;
       flex-grow:1;
     }
     .project-capabilities li{
       color:var(--muted);
-      font-size:.82rem;
-      margin-bottom:6px;
+      font-size:.8rem;
+      margin-bottom:4px;
       list-style-type:square;
-      line-height:1.45;
+      line-height:1.4;
     }
-    .project-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:auto}
+    .project-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
     .project-buttons{
       display:flex;
       flex-wrap:wrap;
       gap:10px;
-      margin-top:20px;
-      padding-top:16px;
+      margin-top:14px;
+      padding-top:14px;
       border-top:1px solid var(--line);
     }
     .project-btn{
       display:inline-flex;
       align-items:center;
       gap:7px;
-      padding:9px 15px;
+      padding:8px 14px;
       border-radius:10px;
-      font-size:.76rem;
+      font-size:.74rem;
       font-weight:700;
       transition:.25s var(--ease);
       border:1px solid var(--line-strong);
@@ -651,9 +651,9 @@
       color:var(--cyan);
       margin-bottom:13px;
     }
-    .skill-list{display:flex;flex-wrap:wrap;gap:8px}
+    .skill-list{display:flex;flex-wrap:wrap;gap:10px}
     .skill{
-      padding:8px 11px;
+      padding:8px 14px;
       border:1px solid var(--line);
       border-radius:9px;
       color:#c3c9d6;
@@ -870,7 +870,7 @@
         <div class="hero-meta">
           <span><i class="fa-solid fa-location-dot"></i> Visakhapatnam, India</span>
           <span><i class="fa-solid fa-graduation-cap"></i> B.Tech CSE — AI/ML</span>
-          <span><i class="fa-solid fa-star"></i> CGPA 9.19</span>
+          <span><i class="fa-solid fa-star"></i> CGPA: 9.19 / 10</span>
         </div>
       </div>
 
@@ -900,7 +900,7 @@
             </div>
             <div class="portrait-cgpa">
               <small>CGPA</small>
-              <strong>9.19</strong>
+              <strong>9.19 / 10</strong>
             </div>
           </div>
 
@@ -915,8 +915,7 @@
       <div class="container">
         <div class="section-intro reveal">
           <div>
-            <h2 class="section-title">A builder who likes to explore practical <span class="gradient-text">intelligent systems.</span></h2>
-            <p class="section-description">From deep learning systems to real-time voice agents, I enjoy turning complex AI concepts into working solutions.</p>
+            <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
           </div>
         </div>
 
@@ -1090,7 +1089,7 @@
             <div class="degree">B.Tech — Computer Science & Engineering</div>
             <div class="specialization">Artificial Intelligence & Machine Learning · Visakhapatnam</div>
             <div class="edu-bottom">
-              <div><small>CGPA</small><strong class="gradient-text">9.19</strong></div>
+              <div><small>CGPA</small><strong class="gradient-text">9.19 / 10</strong></div>
               <div><small>Degree</small><strong>B.Tech</strong></div>
             </div>
           </article>
@@ -1101,7 +1100,7 @@
             <div class="degree">Class XII</div>
             <div class="specialization">Andhra Pradesh Board of Intermediate Education · Visakhapatnam</div>
             <div class="edu-bottom">
-              <div><small>CGPA</small><strong class="gradient-text">9.75</strong></div>
+              <div><small>CGPA</small><strong class="gradient-text">9.75 / 10</strong></div>
               <div><small>Level</small><strong>Class XII</strong></div>
             </div>
           </article>
@@ -1112,7 +1111,7 @@
             <div class="degree">Class X</div>
             <div class="specialization">Andhra Pradesh Board of Secondary Education · Visakhapatnam</div>
             <div class="edu-bottom">
-              <div><small>CGPA</small><strong class="gradient-text">9.82</strong></div>
+              <div><small>CGPA</small><strong class="gradient-text">9.82 / 10</strong></div>
               <div><small>Level</small><strong>Class X</strong></div>
             </div>
           </article>
@@ -1140,12 +1139,10 @@
               Real-time conversational voice agent for recording expenses and querying financial summaries through natural voice interaction.
             </p>
             <ul class="project-capabilities">
-              <li>Real-time conversational voice agent with Outbound SIP integration</li>
-              <li>Expense recording through voice & financial summary queries</li>
-              <li>LiveKit RTC, Speech-to-Text / ASR, and Murf Falcon TTS</li>
+              <li>Real-time conversational voice interaction and Speech-to-Text (ASR)</li>
               <li>Google Gemini LLM reasoning and custom function calling</li>
-              <li>English, Hindi, Telugu, and code-mixed multilingual interaction</li>
-              <li>Multi-agent specialist handoffs, Payment Support Specialist, & Call Analytics Dashboard</li>
+              <li>English, Hindi, Telugu and code-mixed multilingual interaction</li>
+              <li>Multi-agent workflows, Outbound SIP and Call Analytics</li>
             </ul>
             <div class="project-tags">
               <span class="tag">LiveKit</span><span class="tag">Google Gemini</span><span class="tag">ASR</span><span class="tag">Murf Falcon TTS</span><span class="tag">Multilingual NLP</span><span class="tag">Multi-Agent Systems</span>
@@ -1164,15 +1161,13 @@
               Full-stack platform developed as part of Infosys Springboard Virtual Internship 7.0 for vendor management, procurement workflows, reliability scoring, and risk metrics.
             </p>
             <ul class="project-capabilities">
-              <li>Vendor management & procurement workflows (requisitions to invoice settlement)</li>
-              <li>Vendor reliability scoring & procurement risk management calculation</li>
-              <li>Interactive analytics dashboards for compliance and spending metrics</li>
-              <li>Secure JWT authentication, SQLAlchemy ORM, and PostgreSQL database</li>
-              <li>FastAPI modular monolith backend & responsive Angular frontend (TypeScript)</li>
-              <li><strong>Status: Deployed & fully functional</strong></li>
+              <li>Vendor management and procurement workflows</li>
+              <li>Vendor reliability scoring and procurement risk analytics</li>
+              <li>Interactive analytics dashboards</li>
+              <li>FastAPI, Angular, PostgreSQL and secure JWT authentication</li>
             </ul>
             <div class="project-tags">
-              <span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">Angular</span><span class="tag">PostgreSQL</span><span class="tag">SQLAlchemy</span><span class="tag">JWT</span><span class="tag">TypeScript</span>
+              <span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">Angular</span><span class="tag">PostgreSQL</span><span class="tag">SQLAlchemy</span><span class="tag">JWT</span>
             </div>
             <div class="project-buttons">
               <a href="https://github.com/Jhansi48/Infosys-Project" target="_blank" rel="noopener" class="project-btn secondary"><i class="fa-brands fa-github"></i> GitHub</a>
