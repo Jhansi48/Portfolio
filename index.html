@@ -145,18 +145,18 @@
     }
 
     /* HERO */
-    .hero{min-height:100vh;padding:145px 0 80px;display:flex;align-items:center}
+    .hero{min-height:100vh;padding:90px 0 40px;display:flex;align-items:center}
     .hero-grid{
       display:grid;
       grid-template-columns:1.15fr .85fr;
-      gap:80px;
+      gap:60px;
       align-items:center;
     }
     .status{
       display:inline-flex;
       align-items:center;
       gap:9px;
-      padding:7px 12px;
+      padding:6px 12px;
       border:1px solid rgba(98,230,215,.2);
       border-radius:999px;
       color:#b8fff6;
@@ -168,10 +168,10 @@
       box-shadow:0 0 14px var(--cyan);
     }
     .hero h1{
-      font-size:clamp(3.2rem,7vw,6.7rem);
-      line-height:.95;
-      letter-spacing:-.075em;
-      margin:26px 0 26px;
+      font-size:clamp(2.2rem,4.5vw,3.8rem);
+      line-height:1.08;
+      letter-spacing:-.05em;
+      margin:16px 0 16px;
       max-width:800px;
     }
     .hero h1 .outline{
@@ -187,24 +187,25 @@
     .hero-sub{
       max-width:660px;
       color:var(--muted);
-      font-size:1.08rem;
+      font-size:1.02rem;
+      line-height:1.5;
     }
     .hero-actions{
       display:flex;
       flex-wrap:wrap;
       gap:11px;
-      margin-top:34px;
+      margin-top:20px;
     }
     .btn{
       display:inline-flex;
       align-items:center;
       gap:9px;
-      padding:12px 18px;
+      padding:11px 16px;
       border:1px solid var(--line-strong);
       border-radius:13px;
       background:rgba(255,255,255,.035);
       color:var(--text);
-      font-size:.84rem;
+      font-size:.82rem;
       font-weight:700;
       transition:.3s var(--ease);
     }
@@ -218,7 +219,7 @@
       display:flex;
       flex-wrap:wrap;
       gap:25px;
-      margin-top:43px;
+      margin-top:24px;
       color:var(--muted-2);
       font-size:.78rem;
     }
@@ -231,7 +232,7 @@
       display:flex;
       justify-content:center;
       align-items:center;
-      min-height:430px;
+      min-height:360px;
     }
     .portrait-card{
       width:min(365px,100%);
@@ -918,12 +919,12 @@
 
         <div class="about-layout">
           <article class="about-main reveal" style="display: flex; flex-direction: column; justify-content: center;">
-            <p class="big-copy" style="font-size: clamp(1.22rem, 2.2vw, 1.7rem); line-height: 1.45; font-weight: 500;">
-              I'm a B.Tech CSE (AI & ML) student passionate about building practical intelligent systems. My experience spans Machine Learning, Deep Learning, Generative AI, Voice AI, Computer Vision, and full-stack AI applications.
+            <p class="big-copy" style="font-size: clamp(1.1rem, 2vw, 1.45rem); line-height: 1.5; font-weight: 500;">
+              I'm a B.Tech CSE (AI & ML) student passionate about building practical intelligent systems. My experience spans Machine Learning, Deep Learning, Generative AI, Voice AI, Computer Vision, and full-stack AI applications. I enjoy exploring practical applications of AI and building intelligent systems that solve real-world problems.
             </p>
-            <div style="margin-top: 25px; padding-top: 20px; border-top: 1px solid var(--line);">
+            <div style="margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line);">
               <small class="mono" style="color: var(--cyan); display: block; margin-bottom: 8px;">What I Work With</small>
-              <p style="font-size: 0.88rem; color: var(--muted); font-weight: 600; letter-spacing: 0.02em;">
+              <p style="font-size: 0.84rem; color: var(--muted); font-weight: 600; letter-spacing: 0.02em;">
                 Machine Learning &middot; Generative AI &middot; Voice AI &middot; Computer Vision &middot; AI Agents
               </p>
             </div>
@@ -932,20 +933,38 @@
           <div class="about-side">
             <article class="about-side-card reveal">
               <div class="icon"><i class="fa-solid fa-brain"></i></div>
-              <h3>AI & Machine Learning</h3>
-              <p>Machine learning, deep learning, forecasting, predictive analytics, and computer vision.</p>
+              <h3>Machine Learning & Predictive Modeling</h3>
+              <p>Machine Learning &middot; Predictive Analytics &middot; Time Series Forecasting &middot; XGBoost &middot; Random Forest &middot; AutoML</p>
             </article>
             <article class="about-side-card reveal">
-              <div class="icon"><i class="fa-solid fa-comments"></i></div>
-              <h3>Generative AI & Voice</h3>
-              <p>Conversational AI, LLM function calling, speech AI, multilingual interaction, and multi-agent systems.</p>
+              <div class="icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+              <h3>Generative AI & AI Agents</h3>
+              <p>Generative AI &middot; LLMs &middot; Voice AI &middot; Conversational AI &middot; Function Calling &middot; Multi-Agent Systems</p>
             </article>
             <article class="about-side-card reveal">
-              <div class="icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
-              <h3>Research Interests</h3>
-              <p>Machine Learning, Deep Learning, Generative AI, NLP, and Computer Vision.</p>
+              <div class="icon"><i class="fa-solid fa-book-open"></i></div>
+              <h3>Exploring & Learning</h3>
+              <p style="font-style: italic; color: var(--muted);">Actively learning and exploring: NLP &middot; Large Language Models &middot; RAG &middot; Multimodal AI &middot; Reinforcement Learning &middot; AI Research</p>
             </article>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research-interests" style="padding: 70px 0; border-top: 1px solid var(--line);">
+      <div class="container">
+        <div class="section-intro reveal" style="margin-bottom: 30px;">
+          <div>
+            <h2 class="section-title">Research <span class="gradient-text">Interests</span></h2>
+            <p class="section-description" style="margin-top: 10px;">General academic and professional areas of interest that I am actively exploring.</p>
+          </div>
+        </div>
+        <div class="reveal" style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 15px;">
+          <span class="tag" style="padding: 10px 18px; font-size: 0.82rem; border-color: rgba(139,124,255,.2); color: var(--text); background: rgba(139,124,255,.03); font-weight: 600;">Machine Learning</span>
+          <span class="tag" style="padding: 10px 18px; font-size: 0.82rem; border-color: rgba(98,230,215,.2); color: var(--text); background: rgba(98,230,215,.03); font-weight: 600;">Deep Learning</span>
+          <span class="tag" style="padding: 10px 18px; font-size: 0.82rem; border-color: rgba(233,149,255,.2); color: var(--text); background: rgba(233,149,255,.03); font-weight: 600;">Generative AI</span>
+          <span class="tag" style="padding: 10px 18px; font-size: 0.82rem; border-color: rgba(139,124,255,.2); color: var(--text); background: rgba(139,124,255,.03); font-weight: 600;">Natural Language Processing</span>
+          <span class="tag" style="padding: 10px 18px; font-size: 0.82rem; border-color: rgba(98,230,215,.2); color: var(--text); background: rgba(98,230,215,.03); font-weight: 600;">Computer Vision</span>
         </div>
       </div>
     </section>
@@ -1003,9 +1022,9 @@
               <h3 class="experience-role">Machine Learning Engineer Intern</h3>
               <div class="experience-company">MSME 360</div>
               <ul class="experience-points">
-                <li>Developed and evaluated time-series demand forecasting models using XGBoost, Random Forest, and AutoGluon.</li>
-                <li>Performed EDA, data cleaning, feature engineering, and model evaluation to enhance prediction accuracy.</li>
-                <li>Built data preprocessing and pipeline automation workflows using Python, Pandas, and NumPy.</li>
+                <li>Developed and evaluated Time-Series Demand Forecasting models using XGBoost, Random Forest, and AutoGluon.</li>
+                <li>Performed EDA, Data Cleaning, Feature Engineering, and Model Evaluation to enhance prediction accuracy.</li>
+                <li>Implemented data preprocessing pipelines in Python using Pandas, NumPy, and Scikit-learn.</li>
               </ul>
               <div class="experience-tech">
                 <span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">Scikit-learn</span><span class="tag">XGBoost</span><span class="tag">Random Forest</span><span class="tag">AutoGluon</span>
@@ -1038,8 +1057,8 @@
               <div class="experience-company">SkillForge</div>
               <ul class="experience-points">
                 <li>Completed a 2-month virtual internship in Artificial Intelligence using Python.</li>
-                <li>Developed AI projects using Artificial Neural Networks (ANN) and Convolutional Neural Networks (CNN).</li>
-                <li>Applied NumPy, Pandas, and Scikit-learn for preprocessing and model development workflows.</li>
+                <li>Developed AI models using Artificial Neural Networks (ANN) and Convolutional Neural Networks (CNN).</li>
+                <li>Applied Python, NumPy, Pandas, and Scikit-learn for Data preprocessing and model training workflows.</li>
               </ul>
               <div class="experience-tech">
                 <span class="tag">Python</span><span class="tag">ANN</span><span class="tag">CNN</span><span class="tag">NumPy</span><span class="tag">Pandas</span><span class="tag">Scikit-learn</span>
@@ -1112,17 +1131,17 @@
           <article class="project-card featured reveal">
             <span class="project-badge-featured mono">Featured Project</span>
             <div class="project-icon"><i class="fa-solid fa-microphone-lines"></i></div>
-            <h3>ExpenseMate<br><span class="gradient-text">Multilingual Voice-First Financial Assistant</span></h3>
+            <h3>ExpenseMate: <span class="gradient-text">Multilingual Voice-First Financial Assistant</span></h3>
             <p class="project-desc">
               Real-time conversational voice agent for recording expenses and querying financial summaries through natural voice interaction.
             </p>
             <ul class="project-capabilities">
-              <li>Real-time voice interaction & Speech-to-Text (ASR) pipeline</li>
+              <li>Real-time conversational voice agent with Outbound SIP integration</li>
+              <li>Expense recording through voice & financial summary queries</li>
+              <li>LiveKit RTC, Speech-to-Text / ASR, and Murf Falcon TTS</li>
               <li>Google Gemini LLM reasoning and custom function calling</li>
-              <li>Murf Falcon TTS (English, Hindi, and Telugu interaction)</li>
-              <li>Code-mixed multilingual NLP & multi-agent specialist handoffs</li>
-              <li>Payment Support Specialist and Outbound SIP integration</li>
-              <li>Call Analytics Dashboard integration</li>
+              <li>English, Hindi, Telugu, and code-mixed multilingual interaction</li>
+              <li>Multi-agent specialist handoffs, Payment Support Specialist, & Call Analytics Dashboard</li>
             </ul>
             <div class="project-tags">
               <span class="tag">LiveKit</span><span class="tag">Google Gemini</span><span class="tag">ASR</span><span class="tag">Murf Falcon TTS</span><span class="tag">Multilingual NLP</span><span class="tag">Multi-Agent Systems</span>
@@ -1136,17 +1155,17 @@
           <article class="project-card featured reveal">
             <span class="project-badge-featured mono">Featured Project</span>
             <div class="project-icon"><i class="fa-solid fa-database"></i></div>
-            <h3>Vendor Reliability Platform<br><span class="gradient-text">Procurement Risk Analytics Portal</span></h3>
+            <h3>Vendor Reliability Intelligence & <span class="gradient-text">Procurement Risk Management Platform</span></h3>
             <p class="project-desc">
               Full-stack platform developed as part of Infosys Springboard Virtual Internship 7.0 for vendor management, procurement workflows, reliability scoring, and risk metrics.
             </p>
             <ul class="project-capabilities">
-              <li>Vendor registration directory and status auditing</li>
-              <li>Automated procurement workflows (requisitions to invoice settlement)</li>
-              <li>Transparent weighted reliability score calculations</li>
-              <li>Contract expiration warning triggers (notifications and SMTP alerts)</li>
-              <li>JWT authentication, SQLAlchemy ORM, and PostgreSQL database</li>
-              <li>FastAPI modular monolith backend & responsive Angular frontend</li>
+              <li>Vendor management & procurement workflows (requisitions to invoice settlement)</li>
+              <li>Vendor reliability scoring & procurement risk management calculation</li>
+              <li>Interactive analytics dashboards for compliance and spending metrics</li>
+              <li>Secure JWT authentication, SQLAlchemy ORM, and PostgreSQL database</li>
+              <li>FastAPI modular monolith backend & responsive Angular frontend (TypeScript)</li>
+              <li><strong>Status: Deployed & fully functional</strong></li>
             </ul>
             <div class="project-tags">
               <span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">Angular</span><span class="tag">PostgreSQL</span><span class="tag">SQLAlchemy</span><span class="tag">JWT</span><span class="tag">TypeScript</span>
@@ -1173,11 +1192,12 @@
             </p>
             <ul class="project-capabilities">
               <li>Voice-to-text pipeline via OpenAI Whisper API</li>
-              <li>Regex-based parsing and categorization logic</li>
+              <li>Regex-based parsing and expense categorization logic</li>
               <li>Spreadsheet tracking using Pandas and OpenPyXL</li>
+              <li>Telegram Bot API integration in Python</li>
             </ul>
             <div class="project-tags">
-              <span class="tag">Python</span><span class="tag">OpenAI Whisper</span><span class="tag">Telegram API</span><span class="tag">Pandas</span>
+              <span class="tag">Python</span><span class="tag">OpenAI Whisper</span><span class="tag">Telegram API</span><span class="tag">Pandas</span><span class="tag">OpenPyXL</span><span class="tag">Regex</span>
             </div>
             <div class="project-buttons">
               <a href="https://github.com/Jhansi48/expense-telegram-bot" target="_blank" rel="noopener" class="project-btn secondary"><i class="fa-brands fa-github"></i> GitHub</a>
@@ -1192,7 +1212,7 @@
             </p>
             <ul class="project-capabilities">
               <li>Real-time hand gesture tracking via MediaPipe</li>
-              <li>Frame processing and feedback overlay with OpenCV</li>
+              <li>OpenCV-based real-time computer vision frame processing</li>
               <li>Automated keyboard input controls using PyAutoGUI</li>
             </ul>
             <div class="project-tags">
